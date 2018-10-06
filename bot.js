@@ -21,7 +21,7 @@ var fs = require('fs');
 
 client.on('ready', function(){ // Leaked by [ @Fr3on Gamer#9338 ]
     var ms = 30000 ;
-    var setGame = [`Ninja Community `,` Ninja Bot By Fr3on Gamer#9338 !`];
+    var setGame = [`King Community `,` King Bot By Fr3on Gamer#9338 !`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -96,7 +96,7 @@ client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
             message.channel.send({embed: {
                 color: 3447003,
                 author: {
-                  name: 'Ninja Bot\'s translator',
+                  name: 'King Bot\'s translator',
                   icon_url: client.user.avatarURL
                 },
                 fields: [{
@@ -107,7 +107,7 @@ client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "Ninja Bot"
+                  text: "King Bot"
                 }
               }
             });
@@ -258,8 +258,8 @@ var heroo = new Discord.RichEmbed()
 .setColor('#6a109d')
 .setTimestamp(new Date())
 .setThumbnail(client.user.avatarURL)
-.setTitle('Ninja Bot Info')
-.setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
+.setTitle('King Bot Info')
+.setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
 .setAuthor(client.user.username,client.user.avatarURL)
 .addField("**البرفكس** :",`**[ ${prefix} ]**`,true)
 .addField("**السيرفرات** :","**[ "+client.guilds.size+" ]**",true)
@@ -334,10 +334,10 @@ client.on('guildCreate', guild => { // Leaked by [ @Fr3on Gamer#9338 ]
 var message = "zg";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('Ninja Bot Link Click Here .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
+     .setTitle('King Bot Link Click Here .!')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
   .setDescription(`**
-  New Server Add Ninja Bot ✅
+  New Server Add King Bot ✅
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
 client.channels.get("465340887279468564").sendEmbed(embed)
@@ -347,10 +347,10 @@ client.on('guildDelete', guild => { // Leaked by [ @Fr3on Gamer#9338 ]
 var message = "zg";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('Ninja Bot Link Click Here .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
+     .setTitle('King Bot Link Click Here .!')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
   .setDescription(`**
-  Server Kicked Ninja Bot :cry:
+  Server Kicked King Bot :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
 client.channels.get("465340887279468564").sendEmbed(embed)
@@ -413,7 +413,7 @@ var mentionned = message.mentions.members.first();
 .addField(': دخولك لديسكورد قبل', `${moment(heg.createdTimestamp).format('YYYY/M/D HH:mm:ss')} **\n** \`${moment(heg.createdTimestamp).fromNow()}\`` ,true)
 .addField(': انضمامك لسيرفر قبل', `${moment(h.joinedAt).format('YYYY/M/D HH:mm:ss')} \n \`${moment(h.joinedAt).fromNow()}\``, true)
 .addField(': عدد الدعوات', inviteCount,false)
-.setFooter("Ninja Bot.")
+.setFooter("King Bot.")
     message.channel.sendEmbed(id);
 })
 }
@@ -564,7 +564,7 @@ client.on('message', function(message) { // Leaked by [ @Fr3on Gamer#9338 ]
           var mmmmEmbed = new Discord.RichEmbed()
           .setAuthor(client.user.username)
           .setTitle('-  اضغط هنا !.')
-          .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot`)
+          .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot`)
           .setThumbnail(client.user.avatarURL)
           .setFooter(`- Requested By: ${message.author.tag}`,message.author.avatarURL);
           message.channel.send(mmmmEmbed)
@@ -754,7 +754,7 @@ coll.first().delete()
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
  .setDescription(`**اذا كنت تريد الاوامر العامة اظغط الريكشن** 🌏 \n**اذا كنت تريد الاوامر الادارية اظغط الريكشن**🔧 \n**اذا كنت تريد بعض الشرح عن البوت اضغط الريكشن**💥 \n**اذا كنت تريد الالغاء اظغط الريكشن **❌\n              **وشكرا لمستخدمين البوت**`)
 
  .setTimestamp()
@@ -779,7 +779,7 @@ aa.on("collect", r => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
           .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
 .setDescription(`**:earth_americas:  General Commends**\n${prefix}**server - لعرض معلومات عن سيرفرك**\n${prefix}**roll - القرعة**\n${prefix}**ms7f - فتح المصحف**\n${prefix}**invites - لرؤية دعواتك**\n${prefix}**skin - رؤية سكنك بماين كرافت**\n$**avatar [user] - لعرض صورتك او صوره شخص**\n$**system-sar7 - لمعرفة نظام امر صراحة**\n$**tC - لانشاء رومات مؤقتة**\n$**user - معلومات عن حسابك**\n$**mb - معلومات عن الاعضاء**\n$**icon - لاظهار صورة سيرفرك**\n$**tr - لترجمة اي شي تقولة **\n$**cal - لتشغيل الألة الحاسبة**`)
 
  .setTimestamp()
@@ -793,7 +793,7 @@ mm.on("collect", r => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
 .setDescription(`** :wrench: Admins Commends** \n$**system-man3 - لمعرفة كيفيه تفعيل نظام منع التهكير لسيرفرك**\n${prefix}**mute - لعمل ميوت للعضو**\n${prefix}**unmute لفك الميوت عن  العضو**\n${prefix}**bc - الرساله الجماعيه**\n${prefix}**ban - أمر الباند**\n**$kick - أمر الكيك**\n${prefix}**cc [number] - لصنع رتب الوان باختيار عدد**\n${prefix}**dc - لحذف جميع رتب الالوان فقط**\n**$clear - لمسح الشات**\n$**role [mention] [rolename] - لاعطاء شخص رتبة**\n$**rerole [user] [rolename] - لازالة رتبة من شخص**\n$**move [user] - لنقل شخص من روم صوتي لرومك**\n$**move all - لنقل جميع المتواجدين بـ الرومات لرومك**\n$**mct - لقفل جميع الرومات الكتابية**\n$**umct - لفتح جميع الرومات الكتابية**\n$**mcv - لقفل جميع الرومات الصوتية**\n$**umcv - لفتح جميع الرومات الصوتية**`)
 
 .setTimestamp()
@@ -806,9 +806,9 @@ vv.on("collect", r => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
-.setDescription(`**' Ninja Bot Discord.\n$help - لرؤية الأوامر :comet: \n$inv - لدعوة البوت :wine_glass: \n معلومات عن البوت :thinking: \n بوت ديسكورت متكامل :soccer: :microphone: :earth_americas: \nيوجد داخل البوت خاصية منع التهكير مجانا وبسهوله تامة :scream: \nصيانة دورية :stopwatch: :wrench: \n 24 ساعة :point_up:
- \nاضافات يومية :link: \n الدعم الفني للمساعدةة : https://discord.gg/QfB8p2S  :rose:  \n وشكرا لكم :lizard: **`)
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
+.setDescription(`**' King Bot Discord.\n$help - لرؤية الأوامر :comet: \n$inv - لدعوة البوت :wine_glass: \n معلومات عن البوت :thinking: \n بوت ديسكورت متكامل :soccer: :microphone: :earth_americas: \nيوجد داخل البوت خاصية منع التهكير مجانا وبسهوله تامة :scream: \nصيانة دورية :stopwatch: :wrench: \n 24 ساعة :point_up:
+ \nاضافات يومية :link: \n الدعم الفني للمساعدةة : https://discord.gg/W5kghaH  :rose:  \n وشكرا لكم :lizard: **`)
 
 
  .setTimestamp()
